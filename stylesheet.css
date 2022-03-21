@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px;
+}
+.header img {
+    border-radius: 25px;
+    border: 2px solid #e5e7eb;
+    height: 50px;
+    width: 100px;
+}
+.header, ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    color: #e5e7eb;
+    list-style: none;
+}
+a:link {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+.first-part {
+    display: flex;
+    background-color: #1f2937;
+    padding: 140px 200px;
+    gap: 20px;
+}
+.webawesome {
+    font-size: 50px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.first-part p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+button {
+    background-color: cornflowerblue;
+    color: #e5e7eb;
+    width: 200px;
+    height: 40px;
+}
+.first-part img {
+    border-radius: 25px;
+    border: 2px solid #e5e7eb;
+    height: 400px;
+    width: 300px;
+    flex: 1 0 auto;
+}
+.a {
+    flex: 1;
+}
+
+
+
+.second-part {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.second-part img {
+    border-radius: 25px;
+    border: 2px solid rgb(8, 38, 209);
+    width: 200px;
+    height: 150px;   
+    margin-top: 15px;   
+}
+.second-part p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: deepskyblue;
+}
+
+
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+.info1 {
+    display: flex;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
